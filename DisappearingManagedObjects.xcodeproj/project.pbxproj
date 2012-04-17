@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8E0CFA6153DD35E003F828B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E0CFA5153DD35E003F828B /* Foundation.framework */; };
+		F8E0CFA9153DD35E003F828B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E0CFA8153DD35E003F828B /* main.m */; };
+		F8E0CFAD153DD35E003F828B /* DisappearingManagedObjects.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8E0CFAC153DD35E003F828B /* DisappearingManagedObjects.1 */; };
+		F8E0CFBA153DD372003F828B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E0CFB9153DD372003F828B /* SenTestingKit.framework */; };
+		F8E0CFBC153DD372003F828B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E0CFBB153DD372003F828B /* Cocoa.framework */; };
+		F8E0CFC6153DD372003F828B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8E0CFC4153DD372003F828B /* InfoPlist.strings */; };
+		F8E0CFC9153DD372003F828B /* DisappearingManagedObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E0CFC8153DD372003F828B /* DisappearingManagedObjectsTests.m */; };
+		F8E0CFD0153DD3FB003F828B /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E0CFCF153DD3FB003F828B /* DataHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8E0CF9F153DD35E003F828B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F8E0CFAD153DD35E003F828B /* DisappearingManagedObjects.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8E0CFA1153DD35E003F828B /* DisappearingManagedObjects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DisappearingManagedObjects; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E0CFA5153DD35E003F828B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8E0CFA8153DD35E003F828B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8E0CFAB153DD35E003F828B /* DisappearingManagedObjects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisappearingManagedObjects-Prefix.pch"; sourceTree = "<group>"; };
+		F8E0CFAC153DD35E003F828B /* DisappearingManagedObjects.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DisappearingManagedObjects.1; sourceTree = "<group>"; };
+		F8E0CFB8153DD372003F828B /* DisappearingManagedObjectsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisappearingManagedObjectsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E0CFB9153DD372003F828B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F8E0CFBB153DD372003F828B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F8E0CFBE153DD372003F828B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F8E0CFBF153DD372003F828B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F8E0CFC0153DD372003F828B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8E0CFC3153DD372003F828B /* DisappearingManagedObjectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisappearingManagedObjectsTests-Info.plist"; sourceTree = "<group>"; };
+		F8E0CFC5153DD372003F828B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8E0CFC7153DD372003F828B /* DisappearingManagedObjectsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisappearingManagedObjectsTests.h; sourceTree = "<group>"; };
+		F8E0CFC8153DD372003F828B /* DisappearingManagedObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisappearingManagedObjectsTests.m; sourceTree = "<group>"; };
+		F8E0CFCA153DD372003F828B /* DisappearingManagedObjectsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisappearingManagedObjectsTests-Prefix.pch"; sourceTree = "<group>"; };
+		F8E0CFCE153DD3FB003F828B /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
+		F8E0CFCF153DD3FB003F828B /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8E0CF9E153DD35E003F828B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0CFA6153DD35E003F828B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E0CFB4153DD372003F828B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0CFBA153DD372003F828B /* SenTestingKit.framework in Frameworks */,
+				F8E0CFBC153DD372003F828B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8E0CF96153DD35E003F828B = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFA7153DD35E003F828B /* DisappearingManagedObjects */,
+				F8E0CFC1153DD372003F828B /* DisappearingManagedObjectsTests */,
+				F8E0CFA4153DD35E003F828B /* Frameworks */,
+				F8E0CFA2153DD35E003F828B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8E0CFA2153DD35E003F828B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFA1153DD35E003F828B /* DisappearingManagedObjects */,
+				F8E0CFB8153DD372003F828B /* DisappearingManagedObjectsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E0CFA4153DD35E003F828B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFA5153DD35E003F828B /* Foundation.framework */,
+				F8E0CFB9153DD372003F828B /* SenTestingKit.framework */,
+				F8E0CFBB153DD372003F828B /* Cocoa.framework */,
+				F8E0CFBD153DD372003F828B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8E0CFA7153DD35E003F828B /* DisappearingManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFA8153DD35E003F828B /* main.m */,
+				F8E0CFAC153DD35E003F828B /* DisappearingManagedObjects.1 */,
+				F8E0CFAA153DD35E003F828B /* Supporting Files */,
+			);
+			path = DisappearingManagedObjects;
+			sourceTree = "<group>";
+		};
+		F8E0CFAA153DD35E003F828B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFAB153DD35E003F828B /* DisappearingManagedObjects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8E0CFBD153DD372003F828B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFBE153DD372003F828B /* AppKit.framework */,
+				F8E0CFBF153DD372003F828B /* CoreData.framework */,
+				F8E0CFC0153DD372003F828B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F8E0CFC1153DD372003F828B /* DisappearingManagedObjectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFC7153DD372003F828B /* DisappearingManagedObjectsTests.h */,
+				F8E0CFC8153DD372003F828B /* DisappearingManagedObjectsTests.m */,
+				F8E0CFCE153DD3FB003F828B /* DataHelper.h */,
+				F8E0CFCF153DD3FB003F828B /* DataHelper.m */,
+				F8E0CFC2153DD372003F828B /* Supporting Files */,
+			);
+			path = DisappearingManagedObjectsTests;
+			sourceTree = "<group>";
+		};
+		F8E0CFC2153DD372003F828B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0CFC3153DD372003F828B /* DisappearingManagedObjectsTests-Info.plist */,
+				F8E0CFC4153DD372003F828B /* InfoPlist.strings */,
+				F8E0CFCA153DD372003F828B /* DisappearingManagedObjectsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8E0CFA0153DD35E003F828B /* DisappearingManagedObjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E0CFB0153DD35E003F828B /* Build configuration list for PBXNativeTarget "DisappearingManagedObjects" */;
+			buildPhases = (
+				F8E0CF9D153DD35E003F828B /* Sources */,
+				F8E0CF9E153DD35E003F828B /* Frameworks */,
+				F8E0CF9F153DD35E003F828B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisappearingManagedObjects;
+			productName = DisappearingManagedObjects;
+			productReference = F8E0CFA1153DD35E003F828B /* DisappearingManagedObjects */;
+			productType = "com.apple.product-type.tool";
+		};
+		F8E0CFB7153DD372003F828B /* DisappearingManagedObjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E0CFCB153DD372003F828B /* Build configuration list for PBXNativeTarget "DisappearingManagedObjectsTests" */;
+			buildPhases = (
+				F8E0CFB3153DD372003F828B /* Sources */,
+				F8E0CFB4153DD372003F828B /* Frameworks */,
+				F8E0CFB5153DD372003F828B /* Resources */,
+				F8E0CFB6153DD372003F828B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisappearingManagedObjectsTests;
+			productName = DisappearingManagedObjectsTests;
+			productReference = F8E0CFB8153DD372003F828B /* DisappearingManagedObjectsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8E0CF98153DD35E003F828B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F8E0CF9B153DD35E003F828B /* Build configuration list for PBXProject "DisappearingManagedObjects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8E0CF96153DD35E003F828B;
+			productRefGroup = F8E0CFA2153DD35E003F828B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8E0CFA0153DD35E003F828B /* DisappearingManagedObjects */,
+				F8E0CFB7153DD372003F828B /* DisappearingManagedObjectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8E0CFB5153DD372003F828B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0CFC6153DD372003F828B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8E0CFB6153DD372003F828B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8E0CF9D153DD35E003F828B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0CFA9153DD35E003F828B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E0CFB3153DD372003F828B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0CFC9153DD372003F828B /* DisappearingManagedObjectsTests.m in Sources */,
+				F8E0CFD0153DD3FB003F828B /* DataHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8E0CFC4153DD372003F828B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E0CFC5153DD372003F828B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8E0CFAE153DD35E003F828B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8E0CFAF153DD35E003F828B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8E0CFB1153DD35E003F828B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisappearingManagedObjects/DisappearingManagedObjects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8E0CFB2153DD35E003F828B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisappearingManagedObjects/DisappearingManagedObjects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8E0CFCC153DD372003F828B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisappearingManagedObjectsTests/DisappearingManagedObjectsTests-Prefix.pch";
+				INFOPLIST_FILE = "DisappearingManagedObjectsTests/DisappearingManagedObjectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F8E0CFCD153DD372003F828B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisappearingManagedObjectsTests/DisappearingManagedObjectsTests-Prefix.pch";
+				INFOPLIST_FILE = "DisappearingManagedObjectsTests/DisappearingManagedObjectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8E0CF9B153DD35E003F828B /* Build configuration list for PBXProject "DisappearingManagedObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E0CFAE153DD35E003F828B /* Debug */,
+				F8E0CFAF153DD35E003F828B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E0CFB0153DD35E003F828B /* Build configuration list for PBXNativeTarget "DisappearingManagedObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E0CFB1153DD35E003F828B /* Debug */,
+				F8E0CFB2153DD35E003F828B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8E0CFCB153DD372003F828B /* Build configuration list for PBXNativeTarget "DisappearingManagedObjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E0CFCC153DD372003F828B /* Debug */,
+				F8E0CFCD153DD372003F828B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8E0CF98153DD35E003F828B /* Project object */;
+}
